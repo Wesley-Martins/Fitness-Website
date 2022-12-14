@@ -1,2 +1,3 @@
 # Fitness-Website
-Uma Landing Page de um software fitness simulado.
+Uma Landing Page de um software fitness simulado. 
+(Em desenvolvimento)
