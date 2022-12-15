@@ -1,0 +1,14 @@
+header {
+    padding: 1rem;
+    position: relative;
+}
+
+.side-bar {
+    width: 3rem;
+    transition: 0.1s;
+}
+
+.side-bar:hover {
+    cursor: pointer;
+    width: 3.1rem;
+}
