@@ -1,11 +1,17 @@
 .nav__link {
-    color: #5C5B6B;
+    border-radius: 0.5rem;
+    color: #2c2b2b;
     font-family: Mulish, sans-serif;
     font-size: 1.06rem;
+    padding: 0 5px;
     text-decoration: none;
     transition: 0.15s;
 }
 
 .nav__link:hover {
-    font-weight: bold;
+    background-color: rgb(244, 239, 239);
+}
+
+.nav__link:active {
+    background-color: rgb(177, 181, 177);
 }

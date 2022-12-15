@@ -1,0 +1,9 @@
+.product {
+    background-color: blue;
+    display: inline-block;
+    height: 20%;
+    position: relative;
+    margin-left: 1rem;
+    vertical-align: top;
+    width: 40%;
+}

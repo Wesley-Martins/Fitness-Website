@@ -4,11 +4,13 @@ header {
 }
 
 .side-bar {
-    width: 3rem;
+    border-radius: 0.4rem;
+    padding: 0.25rem;
     transition: 0.1s;
+    width: 3rem;
 }
 
 .side-bar:hover {
+    background-color: rgb(244, 239, 239);
     cursor: pointer;
-    width: 3.1rem;
 }
