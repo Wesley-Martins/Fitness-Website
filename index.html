@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./Assets/css/body.css">
     <link rel="stylesheet" href="./Assets/css/reset.css">
     <link rel="stylesheet" href="./Assets/css/header.css">
@@ -14,9 +15,19 @@
     <link rel="stylesheet" href="./Assets/css/nav/nav__list.css">
     <link rel="stylesheet" href="./Assets/css/nav/nav__item.css">
     <link rel="stylesheet" href="./Assets/css/nav/nav__link.css">
+    <link rel="stylesheet" href="./Assets/css/product/product-container.css">
     <link rel="stylesheet" href="./Assets/css/product/product.css">
+    <link rel="stylesheet" href="./Assets/css/product/product__title.css">
+    <link rel="stylesheet" href="./Assets/css/product/product__desc.css">
+    <link rel="stylesheet" href="./Assets/css/product/product__btn.css">
     <link rel="stylesheet" href="./Assets/css/ilustration/ilustration.css">
-    <link rel="stylesheet" href="./Assets/css/ilustration/ilustration__image.css">
+    <link rel="stylesheet" href="./Assets/css/ilustration/ilustration__img.css">
+    <link rel="stylesheet" href="./Assets/css/cards/cards-container.css">
+    <link rel="stylesheet" href="./Assets/css/cards/cards.css">
+    <link rel="stylesheet" href="./Assets/css/cards/cards__item.css">
+    <link rel="stylesheet" href="./Assets/css/cards/cards__img.css">
+    <link rel="stylesheet" href="./Assets/css/cards/cards__title.css">
+    <link rel="stylesheet" href="./Assets/css/cards/cards__desc.css">
 </head>
 <body>
     <header>
@@ -42,11 +53,34 @@
         </nav>
     </header>
     <main>
-        <section class="product">
-
-        </section>
+        <div class="product-container">
+            <div class="product">
+                <h1 class="product__title">É hora de cuidar de si mesmo</h1>
+                <p class="product__desc">Seja fitness em qualquer lugar com nossos vídeos de treinamento</p>
+                <button class="product__btn">Experimente de graça</button>
+            </div>
+        </div>
         <div class="ilustration">
-            <img class="ilustration__image" src="./Assets/images/workout-illustration.png">
+            <img class="ilustration__img" src="./Assets/images/workout-illustration.png" alt="">
+        </div>
+        <div class="cards-container">
+            <ul class="cards">
+                <li class="cards__item cards__item--calendar">
+                    <img class="cards__img cards__img--calendar" src="./Assets/images/calendar-icon.png" alt="">
+                    <h2 class="cards__title">Treinos diários 7 dias por semana</h2>
+                    <p class="cards__desc">Ganhe treinos personalizados por profissionais para sua necessidade</p>
+                </li>
+                <li class="cards__item cards__item--cellphone">
+                    <img class="cards__img cards__img--cellphone" src="./Assets/images/cellphone-icon.png" alt="">
+                    <h2 class="cards__title">Acesse de qualquer plataforma</h2>
+                    <p class="cards__desc">Use todos os benefícios do serviço em qualquer lugar ou dispositivo</p>
+                 </li>
+                <li class="cards__item cards__item--book">
+                    <img class="cards__img cards__img--book" src="./Assets/images/book-icon.png" alt="">
+                    <h2 class="cards__title">Guias e comunidade</h2>
+                    <p class="cards__desc">Uma Comunidade privada onde ajudamos uns aos outros</p>
+                 </li>
+            </ul>
         </div>
     </main>
 </body>

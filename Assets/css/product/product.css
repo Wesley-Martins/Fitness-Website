@@ -1,9 +1,7 @@
 .product {
-    background-color: blue;
-    display: inline-block;
-    height: 20%;
-    position: relative;
-    margin-left: 1rem;
-    vertical-align: top;
-    width: 40%;
+    font-family: Ubuntu, sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    text-align: left;
 }

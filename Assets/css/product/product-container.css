@@ -1,0 +1,6 @@
+.product-container {
+    display: inline-block;
+    height: 75vh;
+    position: relative;
+    width: 45%;
+}

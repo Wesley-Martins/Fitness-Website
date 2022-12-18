@@ -1,0 +1,17 @@
+.cards__item {
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+}
+
+.cards__item--calendar {
+    margin-left: 3%;
+}
+
+.cards__item--cellphone {
+    margin: 0 1.5%;
+}
+
+.cards__item--book {
+    margin-right: 3%;
+}
