@@ -1,6 +1,18 @@
 .product-container {
-    display: inline-block;
-    height: 75vh;
     position: relative;
-    width: 45%;
+}
+
+@media screen and (min-width: 0) {
+    .product-container {
+        display: block;
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .product-container {
+        display: inline-block;
+        height: 75vh;
+        width: 45%;
+    }
 }

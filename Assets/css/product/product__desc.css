@@ -1,5 +1,16 @@
 .product__desc {
     color: #2c2b2b;
-    font-size: 1.15rem;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .product__desc {
+        font-size: 1.05rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .product__desc {
+        font-size: 1.15;
+    }
 }

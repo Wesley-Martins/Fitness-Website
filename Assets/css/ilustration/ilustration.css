@@ -1,8 +1,21 @@
 .ilustration {
-    box-sizing: border-box;
-    display: inline-block;
-    margin-left: 3rem;
     position: relative;
     text-align: center;
     vertical-align: top;
+}
+
+@media screen and (min-width: 0) {
+    .ilustration {
+        display: block;
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .ilustration {
+        display: inline-block;
+        height: auto;
+        text-align: right;
+        width: 50%;
+    }
 }

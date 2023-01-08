@@ -1,4 +1,21 @@
-.nav__item {
-    display: inline;
-    margin-right: 1.8rem;
+@media screen and (min-width: 0) {
+    .nav__item {
+        display: block;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    .nav__item {
+        display: inline;
+        margin-right: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav__item {
+        display: inline;
+        margin-right: 1.8rem;
+    }
 }

@@ -1,6 +1,5 @@
 header {
     margin-bottom: 1rem;
-    padding: 1rem;
     position: relative;
 }
 
@@ -8,10 +7,48 @@ header {
     border-radius: 0.4rem;
     padding: 0.25rem;
     transition: 0.15s;
-    width: 3rem;
+    vertical-align: top;
 }
 
 .side-bar:hover {
     background-color: rgb(244, 239, 239);
     cursor: pointer;
+}
+
+.side-bar:active {
+    background-color: rgb(177, 181, 177);
+}
+
+@media screen and (min-width: 0) {
+    header {
+        padding: 0.25rem;
+        text-align: center;
+    }
+
+    .side-bar {
+        left: 1%;
+        position: absolute;
+        width: 2rem;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    header {
+        text-align: left;
+    }
+
+    .side-bar {
+        position: static;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    .side-bar {
+        width: 2.5rem;
+    }
 }

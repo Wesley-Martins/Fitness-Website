@@ -1,17 +1,30 @@
 .cards__item {
-    display: inline-block;
-    text-align: left;
-    width: 30%;
+    margin-bottom: 2.5rem;
 }
 
-.cards__item--calendar {
-    margin-left: 3%;
+@media screen and (min-width: 0) {
+    .cards__item {
+        display: block;
+        text-align: center;
+    }
 }
 
-.cards__item--cellphone {
-    margin: 0 1.5%;
-}
+@media screen and (min-width: 992px) {
+    .cards__item {
+        display: inline-block;
+        text-align: left;
+        width: 30%;
+    }
 
-.cards__item--book {
-    margin-right: 3%;
+    .cards__item--calendar {
+        margin-left: 3%;
+    }
+    
+    .cards__item--cellphone {
+        margin: 0 1.5%;
+    }
+    
+    .cards__item--book {
+        margin-right: 3%;
+    }
 }

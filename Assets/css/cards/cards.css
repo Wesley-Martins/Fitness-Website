@@ -1,5 +1,16 @@
 .cards {
     display: block;
     font-family: Ubuntu, sans-serif;
-    padding: 2rem 0;
+}
+
+@media screen and (min-width: 0) {
+    .cards {
+        padding: 2rem 0.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cards {
+        padding: 2rem 0;
+    }
 }

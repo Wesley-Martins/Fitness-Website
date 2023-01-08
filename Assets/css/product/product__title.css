@@ -1,4 +1,16 @@
 .product__title {
     color: rgb(27,30,72);
-    font-size: 3rem;
+    margin: 0 1rem;
+}
+
+@media screen and (min-width: 0) {
+    .product__title {
+        font-size: 2.6rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .product__title {
+        font-size: 3rem;
+    }
 }

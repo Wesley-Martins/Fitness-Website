@@ -1,7 +1,21 @@
 .product {
     font-family: Ubuntu, sans-serif;
     position: absolute;
-    left: 5%;
-    top: 25%;
-    text-align: left;
+}
+
+@media screen and (min-width: 0) {
+    .product {
+        text-align: center;
+        top: 25%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .product {
+        left: 5%;
+        margin: 0;
+        top: 25%;
+        text-align: left;
+    }
 }

@@ -6,8 +6,9 @@
     color: rgb(255, 255, 255);
     font-family: Ubuntu, sans-serif;
     font-size: 1.02rem;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
     padding: 0.6rem;
+    transition: 0.04s;
 }
 
 .product__btn:hover {
