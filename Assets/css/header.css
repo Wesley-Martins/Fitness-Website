@@ -8,6 +8,7 @@ header {
     padding: 0.25rem;
     transition: 0.15s;
     vertical-align: top;
+    width: 2.9rem;
 }
 
 .openbtn:hover {
@@ -17,38 +18,4 @@ header {
 
 .openbtn:active {
     background-color: rgb(177, 181, 177);
-}
-
-@media screen and (min-width: 0) {
-    header {
-        padding: 0.25rem;
-        text-align: center;
-    }
-
-    .openbtn {
-        left: 1%;
-        position: absolute;
-        width: 2rem;
-    }
-}
-
-@media screen and (min-width: 430px) {
-    header {
-        text-align: left;
-    }
-
-    .openbtn {
-        position: static;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    header {
-        padding: 0.5rem;
-        text-align: left;
-    }
-
-    .openbtn {
-        width: 2.9rem;
-    }
 }
