@@ -3,19 +3,19 @@ header {
     position: relative;
 }
 
-.side-bar {
+.openbtn {
     border-radius: 0.4rem;
     padding: 0.25rem;
     transition: 0.15s;
     vertical-align: top;
 }
 
-.side-bar:hover {
+.openbtn:hover {
     background-color: rgb(244, 239, 239);
     cursor: pointer;
 }
 
-.side-bar:active {
+.openbtn:active {
     background-color: rgb(177, 181, 177);
 }
 
@@ -25,7 +25,7 @@ header {
         text-align: center;
     }
 
-    .side-bar {
+    .openbtn {
         left: 1%;
         position: absolute;
         width: 2rem;
@@ -37,7 +37,7 @@ header {
         text-align: left;
     }
 
-    .side-bar {
+    .openbtn {
         position: static;
     }
 }
@@ -48,7 +48,7 @@ header {
         text-align: left;
     }
 
-    .side-bar {
-        width: 2.5rem;
+    .openbtn {
+        width: 2.9rem;
     }
 }

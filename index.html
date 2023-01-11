@@ -27,31 +27,21 @@
     <link rel="stylesheet" href="./Assets/css/cards/cards__img.css">
     <link rel="stylesheet" href="./Assets/css/cards/cards__title.css">
     <link rel="stylesheet" href="./Assets/css/cards/cards__desc.css">
+    <link rel="stylesheet" href="./Assets/css/sidebar/sidebar.css">
+    <link rel="stylesheet" href="./Assets/css/sidebar/closebtn.css">
+    <link rel="stylesheet" href="./Assets/css/sidebar/sidebar__item.css">
 </head>
 <body>
     <header>
-        <img class="side-bar" src="./Assets/images/side-bar-icon.png" alt="barra lateral" role="button">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link" href="#">
-                        Programas de treinamento
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link" href="#">
-                        Planos de nutrição
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a class="nav__link" href="#">
-                        Comunidade
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <img class="openbtn" src="./Assets/images/side-bar-icon.png" alt="barra lateral" role="button">
     </header>
     <main>
+        <div class="sidebar">
+            <img class="closebtn" src="./Assets/images/close-button-icon.png" alt="fechar barra lateral" role="button">
+            <a class="sidebar__item" href="#">Programas de treinamento</a>
+            <a class="sidebar__item" href="#">Planos de nutrição</a>
+            <a class="sidebar__item" href="#">Comunidade</a>
+        </div>
         <div class="product-container">
             <div class="product">
                 <h1 class="product__title">É hora de cuidar de si mesmo</h1>
@@ -82,5 +72,6 @@
             </ul>
         </div>
     </main>
+    <script src="Assets/sidebar.js"></script>
 </body>
 </html>

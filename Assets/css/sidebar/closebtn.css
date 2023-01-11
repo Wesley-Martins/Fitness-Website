@@ -1,0 +1,19 @@
+.closebtn {
+    border-radius: 0.4rem;
+    height: 1.8rem;
+    padding: 2.5px;
+    position: absolute;
+    transition: 0.15s;
+    top: 2%;
+    right: 5%;
+    width: 1.8rem;
+}
+
+.closebtn:hover {
+    background-color: rgb(193, 189, 189);
+    cursor: pointer;
+}
+
+.closebtn:active {
+    background-color:rgb(149, 145, 145);
+}
