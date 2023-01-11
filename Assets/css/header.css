@@ -5,6 +5,7 @@ header {
 
 .openbtn {
     border-radius: 0.4rem;
+    margin: 0.5rem 0 0 0.5rem;
     padding: 0.25rem;
     transition: 0.15s;
     vertical-align: top;
